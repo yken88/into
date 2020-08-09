@@ -1,0 +1,26 @@
+git status の追記
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: yken88 <yanokentarou@rrcs-172-254-99-34.nyc.biz.rr.com>
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 4 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   git.txt
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/git.txt b/git.txt
+index 82f36eb..1a6551d 100644
+--- a/git.txt
++++ b/git.txt
+@@ -2,3 +2,4 @@ gitの練習
+ kalgjj
+ git add 
+ git rm
++git status
+\ No newline at end of file
